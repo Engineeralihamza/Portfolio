@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: gray;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#section_1 {
+    height: 93vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.home {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.intro h1 {
+    font-size: 70px;
+    padding-left: 290px;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.intro h2 {
+    font-size: 25px;
+    padding-left: 335px;
+}
+
+.intro p {
+    padding: 40px 50px 0px 100px;
+}
+
+.home img {
+    width: 300px;
+    height: 350px;
+    padding-top: 30px;
+    padding-right: 150px;
+}
+
+.home_social {
+    height: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.home_social a {
+    padding: 0px 20px 0px 20px;
+    font-size: 30px;
+}
+
+#section_2 {
+    height: 100vh;
+    background-color: white;
+    color: gray;
+}
+
+.about {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.about h1 {
+    color: gray;
+    font-size: 40px;
+    padding-top: 10px;
+}
+
+.about_content {
+    padding: 30px 70px 20px 70px;
+}
+
+.about_content p {
+    color: gray;
+}
+
+.content_first {
+    padding-top: 30px;
+}
+
+.about_content h3 {
+    padding-top: 30px;
+}
+
+#section_3 {
+    height: 100vh;
+    background-color: gray;
+    color: white;
+
+}
+
+.skills {
+    display: flex;
+    justify-content: center;
+
+}
+
+.skills h1 {
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+
+.Skills_type {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech_skills {
+    width: 50%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.tech_skills h1 {
+    font-size: 40px;
+}
+
+.soft_skills {
+    width: 50%;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.soft_skills h1 {
+    font-size: 40px;
+}
+
+.soft_skills ul {
+    padding-left: 70px;
+}
+
+#section_4 {
+    height: 100vh;
+    background-color: white;
+    color: gray;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+}
+
+.projects h1 {
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+
+.Project_imgs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.Project_imgs img {
+    width: 600px;
+    height: 300px;
+}
+#section_5{
+    height: 88vh;
+    background-color: gray;
+    color: white;
+
+}
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.contact h1 {
+    font-size: 40px;
+    padding-top: 10px;
+
+}
+.contact_form{
+    display: flex;
+    justify-content: center;
+ 
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  
+}
+
+form label{
+    font-size: 20PX;
+    color: white;
+    padding-right: 200px;
+    
+  }
+  form input{
+    width: 50%;
+    height: 300%;
+    padding-right: 400px;
+  }
+  form textarea{
+    width: 121%;
+    height: 400%;
+    margin-bottom: 10%;
+  }
+  .footer{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background: #5d5c61;
+}
+    

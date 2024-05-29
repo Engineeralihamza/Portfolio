@@ -59,6 +59,7 @@ nav ul li a {
 .intro h2 {
     font-size: 25px;
     padding-left: 335px;
+    color: orange;
 }
 
 .intro p {
@@ -66,9 +67,9 @@ nav ul li a {
 }
 
 .home img {
-    width: 300px;
+    width: 294px;
     height: 350px;
-    padding-top: 30px;
+    padding-top: 60px;
     padding-right: 150px;
 }
 
